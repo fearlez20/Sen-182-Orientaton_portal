@@ -1,0 +1,37 @@
+body{
+    background-color: black;
+    padding-left: 10%;
+}
+
+section{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+ul{
+    list-style-type: square;
+    color: white;
+    font-size: 20px;
+}
+
+ol{
+    list-style-type: upper-roman;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+h1{
+    font-size: 45px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+dt{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+dd{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}

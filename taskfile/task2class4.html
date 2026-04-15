@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="liststyle.css">
+    <title>LIST</title>
+</head>
+<body>
+    <h1>LIST</h1>
+    <section>
+        unordered list
+    </section>    
+    <ul>
+        <li>Notebook</li>
+        <li>Pen</li>
+        <li>Ruler</li>
+        <li>textbook</li>
+    </ul>
+    <section>
+    Description List
+</section>
+<dl>
+    <dt>Notebook</dt>
+    <dd>- A book used by students to write notes.</dd>
+
+    <dt>Pages</dt>
+    <dd>- Sheets inside the notebook used for writing.</dd>
+
+    <dt>Cover</dt>
+    <dd>- The outer part that protects the notebook.</dd>
+
+    <dt>Spiral Binding</dt>
+    <dd>- A coil that holds the pages together.</dd>
+</dl>
+<dl>
+    <dt>Pen</dt>
+    <dd>- A writing tool used to put ink on paper.</dd>
+
+    <dt>Ink</dt>
+    <dd>- The liquid inside the pen used for writing.</dd>
+
+    <dt>Tip</dt>
+    <dd>- The pointed part that touches the paper.</dd>
+
+    <dt>Cap</dt>
+    <dd>- A cover used to protect the pen tip.</dd>
+</dl>
+<dl>
+    <dt>Ruler</dt>
+    <dd>- A tool used for measuring length and drawing straight lines.</dd>
+
+    <dt>Centimeters</dt>
+    <dd>- A unit of measurement marked on the ruler.</dd>
+
+    <dt>Inches</dt>
+    <dd>- Another unit of measurement on some rulers.</dd>
+
+    <dt>Edge</dt>
+    <dd>- The straight side used for drawing lines.</dd>
+</dl>
+<dl>
+    <dt>Textbook</dt>
+    <dd>- A book used for studying a particular subject.</dd>
+
+    <dt>Chapters</dt>
+    <dd>- Sections that divide the content into topics.</dd>
+
+    <dt>Index</dt>
+    <dd>- A list at the back showing where topics can be found.</dd>
+
+    <dt>Author</dt>
+    <dd>- The person who wrote the textbook.</dd>
+</dl>
+    <section>
+        ordered list
+    </section>
+    <ol>
+        <li>Visit the school portal</li>
+        <li>Fill in your details</li>
+        <li>Submit the form</li>
+        <li>Wait for the response</li>
+    </ol>
+
+    <section style="font-size: 30px;">
+    Item markers 
+    </section>
+    <section class="squaremarker">
+        Square marker
+    </section>
+   <ul style="list-style-type: square;">
+        <li>Square marker</li>
+        <li>Circle marker</li>
+        <li>Disc marker</li>
+    </ul> 
+        <section class="circlemarker">
+        Circle marker
+    </section>
+   <ul style="list-style-type: circle;">
+        <li>Square marker</li>
+        <li>Circle marker</li>
+        <li>Disc marker</li>
+    </ul>
+        <section class="none">
+        Square marker
+    </section>
+   <ul style="list-style-type: none;">
+        <li>Square marker</li>
+        <li>Circle marker</li>
+        <li>Disc marker</li>
+    </ul>
+
+    <section style="font-size: 30px;">
+        Nested Lists
+    </section>
+
+    <ul>
+        <li>Fruits
+            <ol>
+                <li>Apple</li>
+                <li>Banana</li>
+                <li>Orange</li>
+            </ol>
+        </li>
+        <li>Vegetables
+            <ol>
+                <li>Carrot</li>
+                <li>Broccoli</li>
+                <li>Spinach</li>
+            </ol>
+        </li>
+        <li>Dairy
+            <ol>
+                <li>Milk</li>
+                <li>Cheese</li>
+                <li>Yogurt</li>
+            </ol>
+        </li>
+
+
+    <section style="font-size: 30px;">
+        Horizontal Menu
+    </section>
+    <nav>
+        <ul class="horizontal-menu" style="display: flex; list-style-type: circle; margin: 10px; padding: 20px;">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section style="font-size: 30px;">
+        Different styles of lists
+    </section>
+
+    <ol style="list-style-type: upper-alpha;">
+        <li>number marker</li>
+        <li>uppercase letters</li>
+        <li>lowercase letters</li>
+        <li>roman numerals</li>
+    </ol>
+    
+    <ol style="list-style-type: lower-alpha;">
+        <li>number marker</li>
+        <li>uppercase letters</li>
+        <li>lowercase letters</li>
+        <li>roman numerals</li>
+    </ol>
+
+    <ol style="list-style-type: 1;">
+        <li>number marker</li>
+        <li>uppercase letters</li>
+        <li>lowercase letters</li>
+        <li>roman numerals</li>
+    </ol>
+
+    <ol style="list-style-type: upper-roman;">
+        <li>number marker</li>
+        <li>uppercase letters</li>
+        <li>lowercase letters</li>
+        <li>roman numerals</li>
+    </ol>
+
+    <section style="font-size: 30px;">
+        controling list counting
+    </section>
+
+    <ol start="5">
+        <li>number marker</li>
+        <li>uppercase letters</li>
+        <li>lowercase letters</li>
+        <li>roman numerals</li>
+    </ol>
+
+    <section style="font-size: 30px;">
+        Nested ordered list with sub items
+    </section>
+
+    <ol>
+        <li>Fruits
+            <ol>
+                <li>Apple</li>
+                <li>Banana</li>
+                <li>Orange</li>
+            </ol>
+        </li>
+        <li>Vegetables
+            <ol>
+                <li>Carrot</li>
+                <li>Broccoli</li>
+                <li>Spinach</li>
+            </ol>
+        </li>
+        <li>Dairy
+            <ol>
+                <li>Milk</li>
+                <li>Cheese</li>
+                <li>Yogurt</li>
+            </ol>
+        </li>
+
+<section style="font-size: 30px;">
+    Important List
+</section>
+
+<ul>
+    <li><strong>Important:</strong> Submit your assignment on time</li>
+    <li><em>Reminder:</em> Attend all lectures</li>
+    <li>Buy notebook and pen</li>
+    <li><strong>Urgent:</strong> Study for the test</li>
+</ul>
+
+<section style="font-size: 30px;">
+    Combined List
+</section>
+
+<ul>
+    <li>item a</li>
+</ul>
+
+<ol>
+    <li>step 1</li>
+</ol>
+
+<dl>
+    <dt>
+        HTML
+    </dt>
+    <dd>
+        Hypertext Markup Language
+    </dd>
+</dl>
+
+</body>
+</head>
+
+
+

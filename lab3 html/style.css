@@ -1,0 +1,55 @@
+body {
+    align-items: center;
+    background-color: black;
+}
+.box{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    color: blueviolet;
+    background-color: blueviolet;
+}
+
+
+/*His example of a box with a border*/
+.fullname{
+    width: 50%;
+}
+.row1{
+    height: 60px;
+}
+
+table{
+    width: 100%;
+    border-style: solid;
+    border-color: green;
+    border-radius: 7px;
+}
+td, th {
+    border-collapse: collapse;
+    background-color: purple;
+    color: white;
+}
+
+
+/*making a collapsed border*/
+/*table {
+    border: 1px solid white;
+    border-radius: 3%;
+    border-collapse: collapse;
+}
+td, th {
+    border: 1px solid white;
+    border-collapse: collapse;
+    background-color: red;
+}*/
+
+/*making an uncollapsed border*/
+/*table{
+    border: 2px solid black;
+    border-radius: 5%;
+}*/
+/*th, td {
+    border: 1px solid black;
+}*/
+
